@@ -1,3 +1,6 @@
+/lib/l10n/messages_*
+/lib/l10n/*_localizations.dart
+
 # Miscellaneous
 *.class
 *.log
