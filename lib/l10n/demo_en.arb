@@ -1,0 +1,32 @@
+{
+  "@@locale": "en",
+
+  "helloWorld": "Hello World",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "hello": "Hello {world}",
+  "@hello": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "world": {}
+    }
+  },
+
+  "greeting": "{hello} {world}",
+  "@greeting": {
+    "description": "A message with a two parameters",
+    "placeholders": {
+      "hello": {},
+      "world": {}
+    }
+  },
+
+  "helloWorlds": "{count,plural, =0{Hello}=1{Hello World}=2{Hello two worlds}few{Hello {count} worlds}many{Hello all {count} worlds}other{Hello other {count} worlds}}",
+  "@helloWorlds": {
+    "placeholders": {
+      "count": {}
+    }
+  }
+}

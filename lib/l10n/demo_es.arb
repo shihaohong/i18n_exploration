@@ -1,0 +1,12 @@
+
+{
+  "@@locale": "es",
+
+  "helloWorld": "Hola Mundo",
+
+  "hello": "Hola $world",
+
+  "greeting": "$hello $world",
+
+  "helloWorlds": "{count,plural, =0{Hola}=1{Hola mundo}=2{Hola dos mundos}few{Hola {count} mundos}many{Hola todos {count} mundos}other{Hola otros {count} mundos}}"
+}
