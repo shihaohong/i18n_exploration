@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'l10n/demo_localizations.dart';
 
@@ -26,15 +25,8 @@ class I18NDemoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      localizationsDelegates: <LocalizationsDelegate<dynamic>>[
-        DemoLocalizations.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ],
-      supportedLocales: const <Locale>[
-        Locale('en', 'US'),
-        Locale('es', 'ES'),
-      ],
+      localizationsDelegates: DemoLocalizations.localizationsDelegates,
+      supportedLocales: DemoLocalizations.supportedLocales,
       home: Home(),
     );
   }
