@@ -1,0 +1,9 @@
+{
+  "helloWorld": "Hello China World",
+
+  "hello": "Hello China {world}",
+
+  "greeting": "{hello} China {world}",
+
+  "helloWorlds": "{count,plural, =0{Hello}=1{Hello World}=2{Hello two worlds}few{Hello {count} worlds}many{Hello all {count} worlds}other{Hello other {count} worlds}}"
+}
