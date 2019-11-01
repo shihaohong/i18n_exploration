@@ -1,9 +1,9 @@
 {
-  "helloWorld": "Hello Taiwan World",
+  "helloWorld": "問候世界(taiwan)",
 
-  "hello": "Hello Taiwan {world}",
+  "hello": "問候 {world}",
 
-  "greeting": "{hello} Taiwan {world}",
+  "greeting": "{hello} {world}",
 
   "helloWorlds": "{count,plural, =0{Hello}=1{Hello World}=2{Hello two worlds}few{Hello {count} worlds}many{Hello all {count} worlds}other{Hello other {count} worlds}}"
 }

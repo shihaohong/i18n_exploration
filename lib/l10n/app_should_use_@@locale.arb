@@ -1,9 +1,11 @@
 {
-  "helloWorld": "Hello China World",
+  "@@locale": "zh_CN",
 
-  "hello": "Hello China {world}",
+  "helloWorld": "问候世界(china)",
 
-  "greeting": "{hello} China {world}",
+  "hello": "问候 {world}",
+
+  "greeting": "{hello} {world}",
 
   "helloWorlds": "{count,plural, =0{Hello}=1{Hello World}=2{Hello two worlds}few{Hello {count} worlds}many{Hello all {count} worlds}other{Hello other {count} worlds}}"
 }
