@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
-            Text(AppLocalizations.of(context).helloWorld()),
+            Text(AppLocalizations.of(context).helloWorld),
             Text(AppLocalizations.of(context).hello('International World')),
             Text(AppLocalizations.of(context).greeting('Greetings', 'Earthlings')),
             Text(AppLocalizations.of(context).helloWorlds(100)),
